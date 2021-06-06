@@ -3,15 +3,11 @@
 	font-family: 'Nunito', sans-serif;
 }
 header {
-	display: flex;
-	width: 100%;
-	height: 65px;
-	background-color: #3080F0;
 	position: sticky;
 	top: .00000000001px;
 	opacity: .93;
 
-}
+}/*
 .header-logo__logo {
 	width: 50px;
 	height: 50px ;
@@ -45,7 +41,162 @@ header {
 .header-menu button:hover {
 	transition: .3s;
 	background-color: #1A2933;	
+}*/
+    nav .header-contenedor-responsive {
+    	display: none;
+    }
+	.header-contenedor {
+	display: flex;
+	flex-wrap: wrap ;
+	width: 100%;
+	height: 11,28472vh;
+	background-color: #3080F0;
+	position: sticky;
+	top: .00000000001px;
+	opacity: .93;
+	}
+	.header-logo__logo {
+	width: 50px;
+	height: 50px ;
+	margin: 7.5px 7.5px 7.5px 10px;
+    }
+    .header-logo__logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 10%;
+    }
+	.ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	li {
+		margin: 7px;
+	}
+	li a button {
+		background-color: #3080F0;
+	    border: none;
+	    border-radius: 10px;
+	    padding: 5px;
+	}	
+	li button:hover {
+	transition: .3s;
+	background-color: #1A2933;
+	}
+	@media only screen and (max-width: 500px) {
+    	nav .header-contenedor {
+    		display: none;
+    	}
+    	nav .header-contenedor-responsive {
+    		display: flex;
+    		flex-flow: column wrap;
+    		background-color: #3080F0;
+    		
+    	}
+    	nav .header-contenedor-responsive__cabecera{
+    		display: flex;
+    		justify-content: space-between ;
+    		align-items: center;
+    		padding: 10px ;
+            -webkit-user-select: none;
+	        user-select: none;
+    	}
+    	.header-logo__logo-responsive {
+	        width: 50px;
+	        height: 50px ;
+	        
+        }
+    	.header-logo__logo-responsive img {
+	        width: 100%;
+	        height: 100%;
+	        object-fit: contain;
+	        border-radius: 10%;
+	    }
+	    .menu-de-barras{
+	    	width: 33px;
+	    	height: 33px;
+	    }
+	    .menu-de-barras input {
+	       display: block;
+	       width: 35px;
+	       height: 32px;
+	       position: absolute;
+	       top: 13px;
+	       margin-right: 17px;
+	       cursor: pointer;
+	       opacity: 0;
+	       z-index: 200;
+	       -webkit-touch-callout: none;
+        }
+	    .menu-de-barras span {
+	    display: block;
+	    width: 33px;
+	    height: 4px;
+	    margin-bottom: 5px;
+	    position: relative;
+	    background: #fff;
+	    border-radius: 3px;
+	    z-index: 100;
+	    transform-origin: 4px 0px;
+	    transition: transform 0.5s;
+	    cubic-bezier(0.77 , 0.2, 0.05, 1),
+	    background: 0.5s;
+	    cubic-bezier(0.77, 0.2, 0.05, 1),
+	    opacity: 0.55s ease;
+        }
+        .menu-de-barras input:checked ~ span:nth-child(3) {
+	        opacity: 0;
+	        transform: rotate(45deg) ;
+        }
+        .menu-de-barras input:checked ~ span:nth-child(2){
+	        opacity: 1;
+	        transform: rotate(44deg) translate(0, -1px) ;
+        }
+        .menu-de-barras input:checked ~ span:nth-child(4){
+	        opacity: 1;
+	        transform: rotate(-44deg) translate(-1px, -2.5px)  ;
+        }  
+        .ul-responsive {
+	        position:absolute;
+	        width: 100%;
+	        top: 70px;
+	        left: 0px;
+	        background:  #3080F0;
+	        list-style-type: none;
+	        -webkit-font-smoothing: antialiased;
+	        transform-origin: 0% 0%;
+	        transform: translate(-100%, 0);
+	        transition: transform 0.5s;
+	        cubic-bezier (0.77, 0.2, 0.05, 1);
+        }    
+        .ul-responsive li {
+	        padding: 5px;
+	        font-size: 18px;
+        }
+        .ul-responsive li a button{
+	        background-color: #3080F0;
+	        border: none;
+	        border-radius: 10px;
+	        padding: 5px;
+        }
+        .ul-responsive li button:hover {
+	        transition: .3s;
+	        background-color: #1A2933;
+	    }
+	    .menu-de-barras input:checked ~ .menu-de-barras:nth-child(5) {
+	    	transform: translate( 500px, 0px);
+	    }
+        .menu-de-barras input:checked ~ ul {
+	        transform: none;
+        }
+        .contacto {
+        	margin: 0px 20px;
+        }
+        
 }
+    }
 main {
 	display: flex;
 	flex-flow: column wrap;
@@ -72,6 +223,8 @@ main {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
 }
 .papercrafts-categorias div{
 	background: linear-gradient(90deg, rgb(12,173,220) , #3080F0);
@@ -119,17 +272,6 @@ main {
     border: none;
     color: #fff;
 }
-.papercrafts-categorias div div .animales {
-	background: none;
-    background-image: url("../imagenes/fondo-abeja.svg");
-    width: 113.667px;
-    height: 115.638px;
-    justify-content: center;
-    border-radius: 0px;
-    padding: 0px;
-    border: none;
-    color: #fff;
-}
 .papercrafts-categorias div div .digimon {
 	background: none;
     background-image: url("../imagenes/fondo-digimon.svg");
@@ -141,9 +283,9 @@ main {
     border: none;
     color: #fff;
 }
-.papercrafts-categorias div div .otros {
+.papercrafts-categorias div div .minecraft {
 	background: none;
-    background-image: url("../imagenes/fondo-otros.svg");
+    background-image: url("../imagenes/fondo-minecraft.svg");
     width: 113.677px;
     height: 150.55px;
     justify-content: center;
@@ -152,8 +294,28 @@ main {
     border: none;
     color: #fff;
 }
-
-
+.papercrafts-categorias div div .animales {
+	background: none;
+    background-image: url("https://vectr.com/tmp/h1iKQAzd44/aJr2IbYAO.svg?width=112.33&height=158.52&select=aJr2IbYAOpage0");
+    width: 112.333px;
+    height: 158.517px;
+    justify-content: center;
+    border-radius: 0px;
+    padding: 0px;
+    border: none;
+    color: #fff;
+}
+.papercrafts-categorias div div .otros {
+	background: none;
+    background-image: url("../imagenes/fondo-otros.svg");
+    width: 113.667px;
+    height: 115.5px;
+    justify-content: center;
+    border-radius: 0px;
+    padding: 0px;
+    border: none;
+    color: #fff;
+}
 .contenedor-sobre-nosotros {
 	display: flex;
 	justify-content: center;
@@ -207,6 +369,6 @@ main {
 footer {
 	display: flex;
 	width: 100%;
-	height: 88px;
+	height: 7.5vh;
 	background-color: #2E7AE4;
 }
