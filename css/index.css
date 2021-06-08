@@ -7,41 +7,7 @@ header {
 	top: .00000000001px;
 	opacity: .93;
 
-}/*
-.header-logo__logo {
-	width: 50px;
-	height: 50px ;
-	margin: 7.5px 7.5px 7.5px 10px;
-
 }
-.header-logo__logo img {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	border-radius: 10%;
-}
-.header-menu{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	margin: 7.5px;
-}
-.header-menu div {
-	margin: 7px;
-}
-.header-menu div a {
-	text-decoration: none;
-}
-.header-menu button {
-	background-color: #3080F0;
-	border: none;
-	border-radius: 10px;
-	padding: 5px;
-}
-.header-menu button:hover {
-	transition: .3s;
-	background-color: #1A2933;	
-}*/
     nav .header-contenedor-responsive {
     	display: none;
     }
@@ -160,6 +126,9 @@ header {
         }  
         .ul-responsive {
 	        position:absolute;
+	        display: flex;
+	        flex-direction: column;
+	        align-items: flex-end;
 	        width: 100%;
 	        top: 70px;
 	        left: 0px;
@@ -174,6 +143,7 @@ header {
         .ul-responsive li {
 	        padding: 5px;
 	        font-size: 18px;
+	        margin-right: 25px;
         }
         .ul-responsive li a button{
 	        background-color: #3080F0;
@@ -194,7 +164,6 @@ header {
         .contacto {
         	margin: 0px 20px;
         }
-        
 }
     }
 main {
@@ -321,15 +290,14 @@ main {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 650px;
+	min-height: 650px;
 	background-image: radial-gradient(circle at 50% 50%, #ffffff 0, #d1e8ff 25%, #9bc5f7 50%, #5ea3e9 75%, #0082dc 100%);
 }
 .sobre-nosotros {
 	display: flex;
 	flex-flow: column wrap;
 	width: 580px;
-	height: 470px;
-	/*background: #3080F0;*/
+	min-height: 470px;
 	background: linear-gradient(90deg, rgb(12,173,220) , #3080F0);
 	border-radius: 15px;
 	box-shadow: 5px 5px 8px rgb(163, 163, 163);
@@ -337,6 +305,46 @@ main {
 	align-items: center;
 	text-align: center;
 	padding: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+@media only screen and (max-width: 500px) {
+	.sobre-nosotros {
+        	display: flex;
+	        flex-flow: column wrap;
+	        width: 580px;
+	        min-height: 470px;
+	        background: linear-gradient(90deg, rgb(12,173,220) , #3080F0);
+	        border-radius: 15px;
+	        box-shadow: 5px 5px 8px rgb(163, 163, 163);
+	        justify-content:space-around;
+	        align-items: center;
+	        text-align: left;
+	        margin: 70px 20px 20px 20px;
+	        padding: 30px;
+	        margin-left: 20px;
+	        margin-right: 20px;   
+        }
+        .sobre-nosotros h3 {
+        	line-height: 50px;
+        	text-align: center;
+        }
+        .imagen-principal div {
+	        display: flex;
+	        width: 100%;
+	        height: 89vh;
+        }
+        .imagen-principal div img {
+	        width: 100%;
+	        height: 100%;
+	        object-fit: cover;
+	        object-position: 78% 5%;
+        }
+        .papercrafts-categorias div div a {
+        	transition: 3s;
+        }
+
+
 }
 .contenedor-contacto {
 	display: flex;
@@ -345,7 +353,7 @@ main {
 	align-items: center;
 	background-image: radial-gradient(circle at 50% 120.71%, #2e3a4f 0, #24344c 50%, #182e49 100%);
 	width: 100%;
-	min-height: 532px;
+	min-height: 582px;
 }
 .contacto__links {
 	display: flex;

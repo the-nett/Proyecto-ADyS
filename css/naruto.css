@@ -1,0 +1,179 @@
+* {
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+}
+@media only screen and (max-width: 500px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		min-height: 70px;
+		background-color: #3080F0;
+		font-size: 8px;
+	}
+	h1 {
+		margin: 0px 10px;
+	}
+	.galeria-naruto{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		min-height: 100vh;
+		background-image: radial-gradient(circle at 50% 120.71%, #2e3a4f 0, #24344c 50%, #182e49 100%);
+	    padding: 20px 0px;
+	}
+	.galeria-naruto div {
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		height: 80vh;
+		background-color: white;
+		margin: 20px 10px;
+		border-radius: 30px;
+		background: linear-gradient(90deg, rgb(12,173,220) , #3080F0);
+		box-shadow: 5px 5px 8px rgb(20, 20, 20);
+	}
+	/*.galeria-naruto div .nombre-de-la-figura{
+
+	}*/
+	.galeria-naruto div div {
+		display: flex;
+		flex-flow: column wrap;
+        justify-content: center;
+        align-items: flex-start;
+
+        width: 100%;
+        height: 95.5%;
+        border-radius: 25px;
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid #fff;
+        box-shadow: none;
+    }
+    .galeria-naruto div div .nombre-de-la-figura{
+    	align-items: center;
+    	text-align: center;
+        width: 100%;
+        height: 9%;
+        border-radius: 0px;
+        margin:  0px;
+        border: none;
+        box-shadow: none;
+    }
+    .galeria-naruto div div .imagen{
+    	justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75%;
+        border-radius: 0px;
+        margin: 0px;
+        border: none;
+        box-shadow: none;
+    } 
+    .galeria-naruto div div .imagen img {
+    	width: 100%;
+    	height: 100%;
+    	object-fit: contain;
+
+    }
+
+    .galeria-naruto div div .codigo-figura {
+    	align-items: center;
+    	text-align: center;
+        width: 100%;
+        height: 6%;
+        border-radius: 0px;
+        margin:  0px;
+        border: none;
+        box-shadow: none;
+    } 
+   }
+   header {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		min-height: 70px;
+		background-color: #3080F0;
+		font-size: 8px;
+	}
+	h1 {
+		margin: 0px 10px;
+	}
+	.galeria-naruto{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		min-height: 80vh;
+		background-image: radial-gradient(circle at 50% 120.71%, #2e3a4f 0, #24344c 50%, #182e49 100%);
+	    padding: 20px 0px;
+	}
+	.galeria-naruto div {
+		display: flex;
+		justify-content: center;
+		width: 277px;
+		height: 80vh;
+		background-color: white;
+		margin: 10px 10px;
+		border-radius: 30px;
+		background: linear-gradient(90deg, rgb(12,173,220) , #3080F0);
+		box-shadow: 5px 5px 8px rgb(20, 20, 20);
+	}
+	/*.galeria-naruto div .nombre-de-la-figura{
+
+	}*/
+	.galeria-naruto div div {
+		display: flex;
+		flex-flow: column wrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 95.5%;
+        border-radius: 25px;
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid #fff;
+        box-shadow: none;
+    }
+    .galeria-naruto div div .nombre-de-la-figura{
+    	align-items: center;
+    	text-align: center;
+        width: 100%;
+        height: 9%;
+        border-radius: 0px;
+        margin:  0px;
+        border: none;
+        box-shadow: none;
+    }
+    .galeria-naruto div div .imagen{
+    	justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75%;
+        border-radius: 0px;
+        margin: 0px;
+        border: none;
+        box-shadow: none;
+    } 
+    .galeria-naruto div div .imagen img {
+    	width: 100%;
+    	height: 100%;
+    	object-fit: contain;
+
+    }
+
+    .galeria-naruto div div .codigo-figura {
+    	align-items: center;
+    	text-align: center;
+        width: 100%;
+        height: 6%;
+        border-radius: 0px;
+        margin:  0px;
+        border: none;
+        box-shadow: none;
+    } 
+
+
