@@ -15,7 +15,7 @@
 	h1 {
 		margin: 0px 10px;
 	}
-	.galeria-naruto{
+	.galeria-fnaf{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -24,7 +24,7 @@
 		background-image: radial-gradient(circle at 50% 120.71%, #2e3a4f 0, #24344c 50%, #182e49 100%);
 	    padding: 20px 0px;
 	}
-	.galeria-naruto div {
+	.galeria-fnaf div {
 		display: flex;
 		justify-content: center;
 		width: 80%;
@@ -36,7 +36,7 @@
 		box-shadow: 5px 5px 8px rgb(20, 20, 20);
 	}
 	
-	.galeria-naruto div div {
+	.galeria-fnaf div div {
 		display: flex;
 		flex-flow: column wrap;
         justify-content: center;
@@ -50,7 +50,7 @@
         border: 1px solid #fff;
         box-shadow: none;
     }
-    .galeria-naruto div div .nombre-de-la-figura{
+    .galeria-fnaf div div .nombre-de-la-figura{
     	align-items: center;
     	text-align: center;
         width: 100%;
@@ -60,7 +60,7 @@
         border: none;
         box-shadow: none;
     }
-    .galeria-naruto div div .imagen{
+    .galeria-fnaf div div .imagen{
     	justify-content: center;
         align-items: center;
         width: 100%;
@@ -70,14 +70,14 @@
         border: none;
         box-shadow: none;
     } 
-    .galeria-naruto div div .imagen img {
+    .galeria-fnaf div div .imagen img {
     	width: 100%;
     	height: 100%;
     	object-fit: contain;
 
     }
 
-    .galeria-naruto div div .codigo-figura {
+    .galeria-fnaf div div .codigo-figura {
     	align-items: center;
     	text-align: center;
         width: 100%;
@@ -120,7 +120,7 @@
 		height: 100%;
 		object-fit: contain;
 	}
-	.galeria-naruto{
+	.galeria-fnaf{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -129,7 +129,7 @@
 		background-image: radial-gradient(circle at 50% 120.71%, #2e3a4f 0, #24344c 50%, #182e49 100%);
 	    padding: 20px 0px;
 	}
-	.galeria-naruto div {
+	.galeria-fnaf div {
 		display: flex;
 		justify-content: center;
 		width: 277px;
@@ -140,7 +140,7 @@
 		background: linear-gradient(90deg, rgb(12,173,220) , #3080F0);
 		box-shadow: 5px 5px 8px rgb(20, 20, 20);
 	}
-	.galeria-naruto div div {
+	.galeria-fnaf div div {
 		display: flex;
 		flex-flow: column wrap;
         justify-content: center;
@@ -153,7 +153,7 @@
         border: 1px solid #fff;
         box-shadow: none;
     }
-    .galeria-naruto div div .nombre-de-la-figura{
+    .galeria-fnaf div div .nombre-de-la-figura{
     	align-items: center;
     	text-align: center;
         width: 100%;
@@ -163,7 +163,7 @@
         border: none;
         box-shadow: none;
     }
-    .galeria-naruto div div .imagen{
+    .galeria-fnaf div div .imagen{
     	justify-content: center;
         align-items: center;
         width: 100%;
@@ -173,14 +173,14 @@
         border: none;
         box-shadow: none;
     } 
-    .galeria-naruto div div .imagen img {
+    .galeria-fnaf div div .imagen img {
     	width: 100%;
     	height: 100%;
     	object-fit: contain;
 
     }
 
-    .galeria-naruto div div .codigo-figura {
+    .galeria-fnaf div div .codigo-figura {
     	align-items: center;
     	text-align: center;
         width: 100%;
@@ -190,5 +190,3 @@
         border: none;
         box-shadow: none;
     } 
-
-
