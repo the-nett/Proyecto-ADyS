@@ -216,7 +216,7 @@ main {
 }
 .papercrafts-categorias div div .naruto {
     background: none;
-    background-image: url(../imagenes/imagenes-index/fondo-naruto.svg);
+    background-image: url(imagenes/imagenes-index/fondo-naruto.svg);
     width: 113.07px;
     height: 165.633px;
     justify-content: center;
@@ -232,7 +232,7 @@ main {
 }
 .papercrafts-categorias div div .five-nights-at-freddys {
 	background: none;
-    background-image: url("../imagenes/imagenes-index/fondo-fnaf.svg");
+    background-image: url("imagenes/imagenes-index/fondo-fnaf.svg");
     width: 113.07px;
     height: 150.75px;
     justify-content: center;
@@ -243,7 +243,7 @@ main {
 }
 .papercrafts-categorias div div .digimon {
 	background: none;
-    background-image: url("../imagenes/imagenes-index/fondo-digimon.svg");
+    background-image: url("imagenes/imagenes-index/fondo-digimon.svg");
     width: 113.677px;
     height: 150.55px;
     justify-content: center;
@@ -254,7 +254,7 @@ main {
 }
 .papercrafts-categorias div div .minecraft {
 	background: none;
-    background-image: url("../imagenes/imagenes-index/fondo-minecraft.svg");
+    background-image: url("imagenes/imagenes-index/fondo-minecraft.svg");
     width: 113.677px;
     height: 150.55px;
     justify-content: center;
@@ -265,7 +265,7 @@ main {
 }
 .papercrafts-categorias div div .vehiculos {
     background: none;
-    background-image: url("../imagenes/imagenes-index/fondo-vehiculos.svg");
+    background-image: url("imagenes/imagenes-index/fondo-vehiculos.svg");
     width: 113.067px;
     height: 158.417px;
     justify-content: center;
@@ -276,7 +276,7 @@ main {
 } 
 .papercrafts-categorias div div .alebrijes {
     background: none;
-    background-image: url("../imagenes/imagenes-index/fondo-alebrijes.svg");
+    background-image: url("imagenes/imagenes-index/fondo-alebrijes.svg");
     width: 113.067px;
     height: 158.417px;
     justify-content: center;
@@ -287,7 +287,7 @@ main {
 }
 .papercrafts-categorias div div .animales {
 	background: none;
-    background-image: url("../imagenes/imagenes-index/fondo-animales.svg");
+    background-image: url("imagenes/imagenes-index/fondo-animales.svg");
     width: 112.333px;
     height: 158.517px;
     justify-content: center;
@@ -298,7 +298,7 @@ main {
 }
 .papercrafts-categorias div div .otros {
 	background: none;
-    background-image: url("../imagenes/imagenes-index/fondo-otros.svg");
+    background-image: url("imagenes/imagenes-index/fondo-otros.svg");
     width: 112.333px;
     height: 157.517px;
     justify-content: center;
